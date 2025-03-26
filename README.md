@@ -1,7 +1,3 @@
-Here’s a good description for your GitHub repository:  
-
----
-
 ## **ARCADE ALLEY 🎮**  
 **A Gaming E-commerce Website**  
 
