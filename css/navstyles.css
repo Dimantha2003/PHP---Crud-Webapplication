@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    font-family: "Poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #222222;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1em;
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff0000;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    transition: width 0.3s ease;
+    width: 200px;
+}
+
+.search-input:focus {
+    width: 300px;
+}
+
+.search-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    
+    color: red;
+}
+
+.auth-container {
+    position: relative;
+}
+
+.user-icon {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-icon:hover {
+    color: red;
+}
+
+.auth-buttons {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #000000;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-top: 0.5em;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 90px;
+}
+
+.auth-buttons.show {
+    display: block;
+}
+
+.auth-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+    background-color: #666;
+    color: red;
+}
+
+.auth-btn:last-child {
+    margin-bottom: 0;
+}

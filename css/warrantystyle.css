@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+}
+
+.header {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+.title {
+    font-size: 3em;
+    color: #fd173d;
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: orange;
+    margin-top: 10px;
+    letter-spacing: 0.1em;
+}
+
+.header::before,
+.header::after {
+    content: '✦';
+    position: absolute;
+    font-size: 3em;
+    color: rgba(243, 227, 9, 0.959);
+}
+
+.header::before {
+    top: -30px;
+    left: 30%;
+}
+
+.header::after {
+    bottom: -30px;
+    right: 30%;
+}
+
+.content{
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+    margin-left: 80px;
+}
+.content h1,h3{
+    color: #fd173d;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-section p, .footer-section ul li {
+    margin: 5px 0;
+}
+
+.main-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.footer-section ul li {
+    font-size: 0.9em;
+}
+
+.arcade-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #fd173d;
+}
+.footer-section a:hover{
+    color: rgb(255, 223, 223);
+}
+.header a{
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,195 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.header {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+.title {
+    font-size: 3em;
+    color: rgb(253, 23, 61);
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: orange;
+    margin-top: 10px;
+    letter-spacing: 0.1em;
+}
+
+.header::before,
+.header::after {
+    content: '✦';
+    position: absolute;
+    font-size: 3em;
+    color: rgba(243, 227, 9, 0.959);
+}
+
+.header::before {
+    top: -30px;
+    left: 30%;
+}
+
+.header::after {
+    bottom: -30px;
+    right: 30%;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-section p, .footer-section ul li {
+    margin: 5px 0;
+}
+
+.main-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.footer-section ul li {
+    font-size: 0.9em;
+}
+
+.arcade-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: rgb(253, 23, 61);
+}
+.footer-section a:hover{
+    color: rgb(255, 223, 223);
+}
+.header a{
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Poppins';
+    background-color: #ff6e6e;
+    margin: 0;
+    padding: 0;
+}
+.container {
+width: 80%;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.checkout-container {
+display: flex;
+justify-content: space-between;
+}
+
+.billing-details, .order-summary {
+width: 45%;
+}
+
+h2 {
+border-bottom: 2px solid #ddd;
+padding-bottom: 5px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+margin-right: 10px;
+}
+
+.order-summary table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.order-summary th, .order-summary td {
+border: 1px solid #ddd;
+padding: 10px;
+text-align: left;
+}
+
+.order-summary th {
+background-color: #f9f9f9;
+}
+
+button {
+background-color: #ff0000;
+color: #fff;
+padding: 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+background-color: #690000;
+}
